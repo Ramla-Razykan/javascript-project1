@@ -42,3 +42,26 @@ p {
     color: #ec790e;
     font-size: clamp(1rem, 100vw, 2.5rem);
 }
+
+@media(max-width: 344px) {
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media(max-width: 320px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 2.4rem;
+    }
+}
